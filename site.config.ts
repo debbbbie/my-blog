@@ -9,7 +9,7 @@ export default siteConfig({
   // rootNotionSpaceId: 'fde5ac74eea345278f004482710e1af3',
 
   // basic site info (required)
-  name: 'Donnie',
+  name: "Donnie's Site",
   domain: 'donnie.tech',
   author: 'Donnie',
 
