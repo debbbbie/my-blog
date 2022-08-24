@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: "Donnie's Site",
-  domain: 'donnie.tech',
+  domain: 'donnie.fun',
   author: 'Donnie',
 
   // open graph metadata (optional)
