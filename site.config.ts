@@ -18,6 +18,7 @@ export default siteConfig({
 
   // social usernames (optional)
   //twitter: 'transitive_bs',
+  github: '',
   //github: 'transitive-bullshit',
   //linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
@@ -47,22 +48,22 @@ export default siteConfig({
   // }
   pageUrlOverrides: null,
 
-  pageUrlAdditions: {
-    '/the-social-audio-revolution': 'c4deaf33cc924ad7a5b9f69c6ae04a01'
-  },
+  // pageUrlAdditions: {
+  //   '/the-social-audio-revolution': 'c4deaf33cc924ad7a5b9f69c6ae04a01'
+  // },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
+  navigationStyle: 'default',
   // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'b273e20f2700421292d3c5d25ef195e5'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '399f2586fdc942d78e2c540e1cb64948'
-  //   }
-  // ]
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: 'b273e20f2700421292d3c5d25ef195e5'
+    },
+    {
+      title: 'Contact',
+      pageId: '399f2586fdc942d78e2c540e1cb64948'
+    }
+  ]
 })
